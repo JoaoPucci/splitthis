@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SpliTThis</string>
+
+    <string name="facebook_app_id" translatable="false">CHANGE ME</string>
+    <string name="fb_login_protocol_scheme" translatable="false">CHANGE ME</string>
+    
+    <string name="login_failed">Login failed</string>
 </resources>

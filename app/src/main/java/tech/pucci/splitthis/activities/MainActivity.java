@@ -1,5 +1,8 @@
 package tech.pucci.splitthis.activities;
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
 import android.content.Intent;
 import android.os.Bundle;
 
