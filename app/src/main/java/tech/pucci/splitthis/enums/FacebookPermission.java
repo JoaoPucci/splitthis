@@ -4,7 +4,7 @@ public enum FacebookPermission {
     EMAIL("email"),
     PUBLIC_PROFILE("public_profile");
 
-    public String value;
+    private final String value;
 
     FacebookPermission(String value) {
         this.value = value;

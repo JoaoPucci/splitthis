@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9de0a2"
     tools:context=".activities.SignInActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/img_logo_piece_1"
         android:layout_width="200dp"
         android:layout_height="27dp"
         android:layout_margin="24dp"
@@ -18,31 +17,34 @@
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182"/>
+        app:layout_constraintVertical_bias="0.182"
+        android:contentDescription="@string/logo_part_1" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_logo_piece_2"
         android:layout_width="0dp"
         android:layout_height="27dp"
         android:layout_margin="24dp"
         android:background="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/img_logo_piece_1"
+        app:layout_constraintStart_toStartOf="@+id/img_logo_piece_1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.244"
+        android:contentDescription="@string/logo_part_2" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img_logo_piece_3"
         android:layout_width="0dp"
         android:layout_height="27dp"
         android:layout_margin="24dp"
         android:background="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/img_logo_piece_2"
+        app:layout_constraintStart_toStartOf="@+id/img_logo_piece_2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.304"
+        android:contentDescription="@string/logo_part_3" />
 
     <ImageView
         android:id="@+id/sign_in_logo"
@@ -58,7 +60,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.17"
+        android:contentDescription="@string/logo" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
